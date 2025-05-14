@@ -27,7 +27,7 @@ API принимает данные о пассажире и возвращае�
 1. Клонируйте репозиторий:
 
 ```bash
-git clone [URL репозитория]
+git clone https://github.com/m4deme1ns4ne/DecisionTreeClassifierTitanic
 cd DecisionTreeClassifier
 ```
 
@@ -39,22 +39,12 @@ poetry install
 
 ### Запуск
 
-1. Запустите API локально:
-
-```bash
-poetry run python main.py
-```
-
-API будет доступно по адресу: http://0.0.0.0:8000
-
-## Docker
-
-Проект также может быть запущен с использованием Docker:
-
 ```bash
 docker build -t titanic-prediction-api .
 docker run -p 8000:8000 titanic-prediction-api
 ```
+
+API будет доступно по адресу: http://0.0.0.0:8000
 
 ## API Endpoints
 
